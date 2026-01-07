@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="model.ArenaTest" tests="19" skipped="0" failures="0" errors="0" timestamp="2025-12-30T23:46:11" hostname="the-workshop" time="0.031">
+  <properties/>
+  <testcase name="heroInLegalPosition()" classname="model.ArenaTest" time="0.001"/>
+  <testcase name="gameOver()" classname="model.ArenaTest" time="0.001"/>
+  <testcase name="damageEnemiesWarrior()" classname="model.ArenaTest" time="0.0"/>
+  <testcase name="damageEnemiesNotWarrior()" classname="model.ArenaTest" time="0.001"/>
+  <testcase name="updateSwordTest()" classname="model.ArenaTest" time="0.001"/>
+  <testcase name="heroNotInLegalPositionRight()" classname="model.ArenaTest" time="0.001"/>
+  <testcase name="testLevelUp()" classname="model.ArenaTest" time="0.0"/>
+  <testcase name="canMoveEnemiesAndHud()" classname="model.ArenaTest" time="0.001"/>
+  <testcase name="spawnSwordTest()" classname="model.ArenaTest" time="0.001"/>
+  <testcase name="time()" classname="model.ArenaTest" time="0.001"/>
+  <testcase name="heroNotInLegalPositionUp()" classname="model.ArenaTest" time="0.001"/>
+  <testcase name="updateHeroWave()" classname="model.ArenaTest" time="0.001"/>
+  <testcase name="canMoveEdges()" classname="model.ArenaTest" time="0.001"/>
+  <testcase name="heroNotInLegalPositionDown()" classname="model.ArenaTest" time="0.001"/>
+  <testcase name="heroNotInLegalPositionLeft()" classname="model.ArenaTest" time="0.001"/>
+  <testcase name="updateHeroShield()" classname="model.ArenaTest" time="0.001"/>
+  <testcase name="colorAndSize()" classname="model.ArenaTest" time="0.002"/>
+  <testcase name="spawnProjectileTest()" classname="model.ArenaTest" time="0.001"/>
+  <testcase name="heroNotInLegalPositionRandom()" classname="model.ArenaTest" time="0.001"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

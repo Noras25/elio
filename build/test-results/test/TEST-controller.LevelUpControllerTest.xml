@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="controller.LevelUpControllerTest" tests="7" skipped="0" failures="0" errors="0" timestamp="2025-12-30T23:46:11" hostname="the-workshop" time="0.03">
+  <properties/>
+  <testcase name="otherPossibilities()" classname="controller.LevelUpControllerTest" time="0.006"/>
+  <testcase name="exit()" classname="controller.LevelUpControllerTest" time="0.004"/>
+  <testcase name="MageSpecifics()" classname="controller.LevelUpControllerTest" time="0.005"/>
+  <testcase name="WarriorSpecifics()" classname="controller.LevelUpControllerTest" time="0.004"/>
+  <testcase name="choice1()" classname="controller.LevelUpControllerTest" time="0.003"/>
+  <testcase name="choice2()" classname="controller.LevelUpControllerTest" time="0.002"/>
+  <testcase name="choice3()" classname="controller.LevelUpControllerTest" time="0.001"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

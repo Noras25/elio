@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="model.HeroTest" tests="10" skipped="0" failures="0" errors="0" timestamp="2025-12-30T23:46:11" hostname="the-workshop" time="0.015">
+  <properties/>
+  <testcase name="lastAttackTime()" classname="model.HeroTest" time="0.001"/>
+  <testcase name="takeDamage()" classname="model.HeroTest" time="0.001"/>
+  <testcase name="damage()" classname="model.HeroTest" time="0.0"/>
+  <testcase name="direction()" classname="model.HeroTest" time="0.001"/>
+  <testcase name="shield()" classname="model.HeroTest" time="0.001"/>
+  <testcase name="resource()" classname="model.HeroTest" time="0.0"/>
+  <testcase name="hp()" classname="model.HeroTest" time="0.001"/>
+  <testcase name="xp()" classname="model.HeroTest" time="0.002"/>
+  <testcase name="level()" classname="model.HeroTest" time="0.0"/>
+  <testcase name="position()" classname="model.HeroTest" time="0.001"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

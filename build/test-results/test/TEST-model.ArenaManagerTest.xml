@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="model.ArenaManagerTest" tests="11" skipped="0" failures="0" errors="0" timestamp="2025-12-30T23:46:11" hostname="the-workshop" time="0.024">
+  <properties/>
+  <testcase name="waveManagerSpawnBossWave()" classname="model.ArenaManagerTest" time="0.003"/>
+  <testcase name="projectileManagerBasic()" classname="model.ArenaManagerTest" time="0.0"/>
+  <testcase name="HUDManagerUpdateHP()" classname="model.ArenaManagerTest" time="0.001"/>
+  <testcase name="HUDManagerUpdateXP()" classname="model.ArenaManagerTest" time="0.001"/>
+  <testcase name="HUDManagerCheckCollision()" classname="model.ArenaManagerTest" time="0.001"/>
+  <testcase name="enemiesManagerBasic()" classname="model.ArenaManagerTest" time="0.002"/>
+  <testcase name="projectileManagerUpdate()" classname="model.ArenaManagerTest" time="0.002"/>
+  <testcase name="enemiesManagerUpdate()" classname="model.ArenaManagerTest" time="0.002"/>
+  <testcase name="HUDManagerUpdateShield()" classname="model.ArenaManagerTest" time="0.001"/>
+  <testcase name="waveManagerUpdate()" classname="model.ArenaManagerTest" time="0.001"/>
+  <testcase name="waveManagerSpawnNormalWave()" classname="model.ArenaManagerTest" time="0.002"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

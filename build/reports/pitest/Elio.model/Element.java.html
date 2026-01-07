@@ -1,0 +1,361 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta http-equiv="Content-Type" content="text/html;charset=UTF-8">
+    <link rel="stylesheet" type="text/css" href="../style.css">
+</head>
+<body>
+
+
+<h1>Element.java</h1>
+
+<table class="src">
+
+
+
+<tr>
+<td class='na'>
+<a name='org.pitest.mutationtest.report.html.SourceFile@64665781_1'/>
+1
+</td>
+<td class=''>
+<span class='pop'>
+<a href='#grouporg.pitest.mutationtest.report.html.SourceFile@64665781_1'></a>
+<span>
+</span>
+</span>
+</td>
+<td class=''><pre><span  class=''>package Elio.model;</span></pre></td></tr>
+
+
+<tr>
+<td class='na'>
+<a name='org.pitest.mutationtest.report.html.SourceFile@64665781_2'/>
+2
+</td>
+<td class=''>
+<span class='pop'>
+<a href='#grouporg.pitest.mutationtest.report.html.SourceFile@64665781_2'></a>
+<span>
+</span>
+</span>
+</td>
+<td class=''><pre><span  class=''></span></pre></td></tr>
+
+
+<tr>
+<td class='na'>
+<a name='org.pitest.mutationtest.report.html.SourceFile@64665781_3'/>
+3
+</td>
+<td class=''>
+<span class='pop'>
+<a href='#grouporg.pitest.mutationtest.report.html.SourceFile@64665781_3'></a>
+<span>
+</span>
+</span>
+</td>
+<td class=''><pre><span  class=''>import com.googlecode.lanterna.graphics.TextGraphics;</span></pre></td></tr>
+
+
+<tr>
+<td class='na'>
+<a name='org.pitest.mutationtest.report.html.SourceFile@64665781_4'/>
+4
+</td>
+<td class=''>
+<span class='pop'>
+<a href='#grouporg.pitest.mutationtest.report.html.SourceFile@64665781_4'></a>
+<span>
+</span>
+</span>
+</td>
+<td class=''><pre><span  class=''></span></pre></td></tr>
+
+
+<tr>
+<td class='na'>
+<a name='org.pitest.mutationtest.report.html.SourceFile@64665781_5'/>
+5
+</td>
+<td class=''>
+<span class='pop'>
+<a href='#grouporg.pitest.mutationtest.report.html.SourceFile@64665781_5'></a>
+<span>
+</span>
+</span>
+</td>
+<td class=''><pre><span  class=''>public abstract class Element {</span></pre></td></tr>
+
+
+<tr>
+<td class='na'>
+<a name='org.pitest.mutationtest.report.html.SourceFile@64665781_6'/>
+6
+</td>
+<td class=''>
+<span class='pop'>
+<a href='#grouporg.pitest.mutationtest.report.html.SourceFile@64665781_6'></a>
+<span>
+</span>
+</span>
+</td>
+<td class=''><pre><span  class=''>    private Position position;</span></pre></td></tr>
+
+
+<tr>
+<td class='na'>
+<a name='org.pitest.mutationtest.report.html.SourceFile@64665781_7'/>
+7
+</td>
+<td class=''>
+<span class='pop'>
+<a href='#grouporg.pitest.mutationtest.report.html.SourceFile@64665781_7'></a>
+<span>
+</span>
+</span>
+</td>
+<td class=''><pre><span  class=''></span></pre></td></tr>
+
+
+<tr>
+<td class='covered'>
+<a name='org.pitest.mutationtest.report.html.SourceFile@64665781_8'/>
+8
+</td>
+<td class=''>
+<span class='pop'>
+<a href='#grouporg.pitest.mutationtest.report.html.SourceFile@64665781_8'></a>
+<span>
+</span>
+</span>
+</td>
+<td class='covered'><pre><span  class=''>    public Element(Position position){</span></pre></td></tr>
+
+
+<tr>
+<td class='covered'>
+<a name='org.pitest.mutationtest.report.html.SourceFile@64665781_9'/>
+9
+</td>
+<td class=''>
+<span class='pop'>
+<a href='#grouporg.pitest.mutationtest.report.html.SourceFile@64665781_9'></a>
+<span>
+</span>
+</span>
+</td>
+<td class='covered'><pre><span  class=''>        this.position = position;</span></pre></td></tr>
+
+
+<tr>
+<td class='covered'>
+<a name='org.pitest.mutationtest.report.html.SourceFile@64665781_10'/>
+10
+</td>
+<td class=''>
+<span class='pop'>
+<a href='#grouporg.pitest.mutationtest.report.html.SourceFile@64665781_10'></a>
+<span>
+</span>
+</span>
+</td>
+<td class='covered'><pre><span  class=''>    }</span></pre></td></tr>
+
+
+<tr>
+<td class='na'>
+<a name='org.pitest.mutationtest.report.html.SourceFile@64665781_11'/>
+11
+</td>
+<td class=''>
+<span class='pop'>
+<a href='#grouporg.pitest.mutationtest.report.html.SourceFile@64665781_11'></a>
+<span>
+</span>
+</span>
+</td>
+<td class=''><pre><span  class=''></span></pre></td></tr>
+
+
+<tr>
+<td class='na'>
+<a name='org.pitest.mutationtest.report.html.SourceFile@64665781_12'/>
+12
+</td>
+<td class=''>
+<span class='pop'>
+<a href='#grouporg.pitest.mutationtest.report.html.SourceFile@64665781_12'></a>
+<span>
+</span>
+</span>
+</td>
+<td class=''><pre><span  class=''>    public Position getPosition() {</span></pre></td></tr>
+
+
+<tr>
+<td class='covered'>
+<a name='org.pitest.mutationtest.report.html.SourceFile@64665781_13'/>
+13
+</td>
+<td class='killed'>
+<span class='pop'>
+<a href='#grouporg.pitest.mutationtest.report.html.SourceFile@64665781_13'>1</a>
+<span>
+1. getPosition : replaced return value with null for Elio/model/Element::getPosition &rarr; KILLED<br/>
+
+</span>
+</span>
+</td>
+<td class='covered'><pre><span  class='killed'>        return position;</span></pre></td></tr>
+
+
+<tr>
+<td class='na'>
+<a name='org.pitest.mutationtest.report.html.SourceFile@64665781_14'/>
+14
+</td>
+<td class=''>
+<span class='pop'>
+<a href='#grouporg.pitest.mutationtest.report.html.SourceFile@64665781_14'></a>
+<span>
+</span>
+</span>
+</td>
+<td class=''><pre><span  class=''>    }</span></pre></td></tr>
+
+
+<tr>
+<td class='na'>
+<a name='org.pitest.mutationtest.report.html.SourceFile@64665781_15'/>
+15
+</td>
+<td class=''>
+<span class='pop'>
+<a href='#grouporg.pitest.mutationtest.report.html.SourceFile@64665781_15'></a>
+<span>
+</span>
+</span>
+</td>
+<td class=''><pre><span  class=''></span></pre></td></tr>
+
+
+<tr>
+<td class='na'>
+<a name='org.pitest.mutationtest.report.html.SourceFile@64665781_16'/>
+16
+</td>
+<td class=''>
+<span class='pop'>
+<a href='#grouporg.pitest.mutationtest.report.html.SourceFile@64665781_16'></a>
+<span>
+</span>
+</span>
+</td>
+<td class=''><pre><span  class=''>    public void setPosition(Position position) {</span></pre></td></tr>
+
+
+<tr>
+<td class='covered'>
+<a name='org.pitest.mutationtest.report.html.SourceFile@64665781_17'/>
+17
+</td>
+<td class=''>
+<span class='pop'>
+<a href='#grouporg.pitest.mutationtest.report.html.SourceFile@64665781_17'></a>
+<span>
+</span>
+</span>
+</td>
+<td class='covered'><pre><span  class=''>        this.position = position;</span></pre></td></tr>
+
+
+<tr>
+<td class='covered'>
+<a name='org.pitest.mutationtest.report.html.SourceFile@64665781_18'/>
+18
+</td>
+<td class=''>
+<span class='pop'>
+<a href='#grouporg.pitest.mutationtest.report.html.SourceFile@64665781_18'></a>
+<span>
+</span>
+</span>
+</td>
+<td class='covered'><pre><span  class=''>    }</span></pre></td></tr>
+
+
+<tr>
+<td class='na'>
+<a name='org.pitest.mutationtest.report.html.SourceFile@64665781_19'/>
+19
+</td>
+<td class=''>
+<span class='pop'>
+<a href='#grouporg.pitest.mutationtest.report.html.SourceFile@64665781_19'></a>
+<span>
+</span>
+</span>
+</td>
+<td class=''><pre><span  class=''></span></pre></td></tr>
+
+
+<tr>
+<td class='na'>
+<a name='org.pitest.mutationtest.report.html.SourceFile@64665781_20'/>
+20
+</td>
+<td class=''>
+<span class='pop'>
+<a href='#grouporg.pitest.mutationtest.report.html.SourceFile@64665781_20'></a>
+<span>
+</span>
+</span>
+</td>
+<td class=''><pre><span  class=''>}</span></pre></td></tr>
+
+
+
+<tr><td></td><td></td><td><h2>Mutations</h2></td></tr>
+
+<tr>
+<td><a href='#org.pitest.mutationtest.report.html.SourceFile@64665781_13'>13</a></td> 
+<td></td>
+<td>
+
+<a name='grouporg.pitest.mutationtest.report.html.SourceFile@64665781_13'/> 
+
+<p class='KILLED'><span class='pop'>1.<span><b>1</b><br/><b>Location : </b>getPosition<br/><b>Killed by : </b>model.attackStrategies.ProjectileTest.[engine:junit-jupiter]/[class:model.attackStrategies.ProjectileTest]/[method:testInit()]</span></span> replaced return value with null for Elio/model/Element::getPosition &rarr; KILLED</p> 
+</td>
+</tr>
+
+</table>
+
+
+<h2>Active mutators</h2>
+<ul>
+<li class='mutator'>CONDITIONALS_BOUNDARY</li>
+<li class='mutator'>EMPTY_RETURNS</li>
+<li class='mutator'>FALSE_RETURNS</li>
+<li class='mutator'>INCREMENTS</li>
+<li class='mutator'>INVERT_NEGS</li>
+<li class='mutator'>MATH</li>
+<li class='mutator'>NEGATE_CONDITIONALS</li>
+<li class='mutator'>NULL_RETURNS</li>
+<li class='mutator'>PRIMITIVE_RETURNS</li>
+<li class='mutator'>TRUE_RETURNS</li>
+<li class='mutator'>VOID_METHOD_CALLS</li>
+
+</ul>
+
+<h2>Tests examined</h2>
+<ul>
+<li>model.attackStrategies.ProjectileTest.[engine:junit-jupiter]/[class:model.attackStrategies.ProjectileTest]/[method:testProjectileNotMove()] (0 ms)</li><li>model.attackStrategies.ProjectileTest.[engine:junit-jupiter]/[class:model.attackStrategies.ProjectileTest]/[method:testInit()] (0 ms)</li><li>model.attackStrategies.ProjectileTest.[engine:junit-jupiter]/[class:model.attackStrategies.ProjectileTest]/[method:testProjectileMoveUp()] (0 ms)</li><li>model.attackStrategies.ProjectileTest.[engine:junit-jupiter]/[class:model.attackStrategies.ProjectileTest]/[method:testProjectileMoveLeft()] (0 ms)</li><li>model.attackStrategies.ProjectileTest.[engine:junit-jupiter]/[class:model.attackStrategies.ProjectileTest]/[method:testRangeExceeded()] (0 ms)</li><li>model.HeroTest.[engine:junit-jupiter]/[class:model.HeroTest]/[method:position()] (0 ms)</li><li>model.attackStrategies.ProjectileTest.[engine:junit-jupiter]/[class:model.attackStrategies.ProjectileTest]/[method:testProjectileMoveDown()] (0 ms)</li><li>model.attackStrategies.ProjectileTest.[engine:junit-jupiter]/[class:model.attackStrategies.ProjectileTest]/[method:testProjectileMoveRight()] (0 ms)</li><li>model.ArenaTest.[engine:junit-jupiter]/[class:model.ArenaTest]/[method:heroInLegalPosition()] (0 ms)</li><li>model.EnemyTest.[engine:junit-jupiter]/[class:model.EnemyTest]/[method:bruiser()] (0 ms)</li><li>model.ArenaTest.[engine:junit-jupiter]/[class:model.ArenaTest]/[method:spawnSwordTest()] (0 ms)</li><li>model.EnemyTest.[engine:junit-jupiter]/[class:model.EnemyTest]/[method:runner()] (0 ms)</li><li>model.ArenaManagerTest.[engine:junit-jupiter]/[class:model.ArenaManagerTest]/[method:projectileManagerBasic()] (0 ms)</li><li>model.EnemyTest.[engine:junit-jupiter]/[class:model.EnemyTest]/[method:crawler()] (0 ms)</li><li>view.HeroViewerTest.[engine:junit-jupiter]/[class:view.HeroViewerTest]/[method:drawTest()] (2 ms)</li><li>model.EnemyTest.[engine:junit-jupiter]/[class:model.EnemyTest]/[method:boss()] (0 ms)</li><li>model.ArenaTest.[engine:junit-jupiter]/[class:model.ArenaTest]/[method:spawnProjectileTest()] (0 ms)</li><li>model.MovingStrategiesTest.[engine:junit-jupiter]/[class:model.MovingStrategiesTest]/[method:roamToCenter()] (0 ms)</li><li>model.ArenaTest.[engine:junit-jupiter]/[class:model.ArenaTest]/[method:canMoveEdges()] (0 ms)</li><li>model.MovingStrategiesTest.[engine:junit-jupiter]/[class:model.MovingStrategiesTest]/[method:chaseHeroNear()] (0 ms)</li><li>model.MovingStrategiesTest.[engine:junit-jupiter]/[class:model.MovingStrategiesTest]/[method:random()] (1 ms)</li><li>model.MovingStrategiesTest.[engine:junit-jupiter]/[class:model.MovingStrategiesTest]/[method:chaseHeroFar()] (0 ms)</li><li>model.MovingStrategiesTest.[engine:junit-jupiter]/[class:model.MovingStrategiesTest]/[method:chaseHeroNearNot()] (0 ms)</li><li>model.ArenaTest.[engine:junit-jupiter]/[class:model.ArenaTest]/[method:damageEnemiesNotWarrior()] (0 ms)</li><li>model.ArenaTest.[engine:junit-jupiter]/[class:model.ArenaTest]/[method:damageEnemiesWarrior()] (0 ms)</li><li>model.EnemyTest.[engine:junit-jupiter]/[class:model.EnemyTest]/[method:move()] (0 ms)</li><li>controller.GameControllerTest.[engine:junit-jupiter]/[class:controller.GameControllerTest]/[method:arrowLeft()] (4 ms)</li><li>controller.GameControllerTest.[engine:junit-jupiter]/[class:controller.GameControllerTest]/[method:arrowUp()] (5 ms)</li><li>controller.HeroControllerTest.[engine:junit-jupiter]/[class:controller.HeroControllerTest]/[method:moveRight()] (0 ms)</li><li>controller.GameControllerTest.[engine:junit-jupiter]/[class:controller.GameControllerTest]/[method:arrowDown()] (5 ms)</li><li>controller.HeroControllerTest.[engine:junit-jupiter]/[class:controller.HeroControllerTest]/[method:moveLeft()] (0 ms)</li><li>controller.HeroControllerTest.[engine:junit-jupiter]/[class:controller.HeroControllerTest]/[method:moveDown()] (0 ms)</li><li>model.ArenaManagerTest.[engine:junit-jupiter]/[class:model.ArenaManagerTest]/[method:waveManagerSpawnNormalWave()] (1 ms)</li><li>model.ArenaTest.[engine:junit-jupiter]/[class:model.ArenaTest]/[method:heroNotInLegalPositionDown()] (0 ms)</li><li>model.ArenaManagerTest.[engine:junit-jupiter]/[class:model.ArenaManagerTest]/[method:waveManagerSpawnBossWave()] (5 ms)</li><li>model.ArenaManagerTest.[engine:junit-jupiter]/[class:model.ArenaManagerTest]/[method:enemiesManagerUpdate()] (1 ms)</li><li>model.ArenaTest.[engine:junit-jupiter]/[class:model.ArenaTest]/[method:heroNotInLegalPositionLeft()] (0 ms)</li><li>model.ArenaTest.[engine:junit-jupiter]/[class:model.ArenaTest]/[method:heroNotInLegalPositionRandom()] (0 ms)</li><li>model.ArenaManagerTest.[engine:junit-jupiter]/[class:model.ArenaManagerTest]/[method:projectileManagerUpdate()] (1 ms)</li><li>model.ArenaTest.[engine:junit-jupiter]/[class:model.ArenaTest]/[method:heroNotInLegalPositionRight()] (0 ms)</li><li>model.ArenaTest.[engine:junit-jupiter]/[class:model.ArenaTest]/[method:heroNotInLegalPositionUp()] (0 ms)</li><li>model.ArenaTest.[engine:junit-jupiter]/[class:model.ArenaTest]/[method:canMoveEnemiesAndHud()] (0 ms)</li><li>model.ArenaManagerTest.[engine:junit-jupiter]/[class:model.ArenaManagerTest]/[method:waveManagerUpdate()] (0 ms)</li><li>controller.HeroControllerTest.[engine:junit-jupiter]/[class:controller.HeroControllerTest]/[method:moveUp()] (12 ms)</li><li>state.GameStateTest.[engine:junit-jupiter]/[class:state.GameStateTest]/[method:update()] (0 ms)</li><li>view.GameViewerTest.[engine:junit-jupiter]/[class:view.GameViewerTest]/[method:drawTest()] (24 ms)</li><li>model.MovingStrategiesTest.[engine:junit-jupiter]/[class:model.MovingStrategiesTest]/[method:smartStrategy()] (59 ms)</li><li>controller.GameControllerTest.[engine:junit-jupiter]/[class:controller.GameControllerTest]/[method:arrowRight()] (148 ms)</li>
+</ul>
+
+<br/>
+
+Report generated by <a href='https://pitest.org'>PIT</a> 1.15.0
+
+</body>
+</html>

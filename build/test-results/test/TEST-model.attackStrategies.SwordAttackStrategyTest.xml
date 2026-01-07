@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="model.attackStrategies.SwordAttackStrategyTest" tests="6" skipped="0" failures="0" errors="0" timestamp="2025-12-30T23:46:12" hostname="the-workshop" time="0.026">
+  <properties/>
+  <testcase name="attackTestShorterCooldown()" classname="model.attackStrategies.SwordAttackStrategyTest" time="0.005"/>
+  <testcase name="attackTestForRight()" classname="model.attackStrategies.SwordAttackStrategyTest" time="0.004"/>
+  <testcase name="attackTestForDown()" classname="model.attackStrategies.SwordAttackStrategyTest" time="0.003"/>
+  <testcase name="attackTestForLeft()" classname="model.attackStrategies.SwordAttackStrategyTest" time="0.004"/>
+  <testcase name="attackTestDefault()" classname="model.attackStrategies.SwordAttackStrategyTest" time="0.004"/>
+  <testcase name="attackTestForUp()" classname="model.attackStrategies.SwordAttackStrategyTest" time="0.004"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

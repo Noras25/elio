@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="model.MovingStrategiesTest" tests="6" skipped="0" failures="0" errors="0" timestamp="2025-12-30T23:46:11" hostname="the-workshop" time="0.1">
+  <properties/>
+  <testcase name="chaseHeroNearNot()" classname="model.MovingStrategiesTest" time="0.001"/>
+  <testcase name="random()" classname="model.MovingStrategiesTest" time="0.005"/>
+  <testcase name="chaseHeroNear()" classname="model.MovingStrategiesTest" time="0.001"/>
+  <testcase name="roamToCenter()" classname="model.MovingStrategiesTest" time="0.001"/>
+  <testcase name="chaseHeroFar()" classname="model.MovingStrategiesTest" time="0.001"/>
+  <testcase name="smartStrategy()" classname="model.MovingStrategiesTest" time="0.088"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

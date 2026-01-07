@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="model.attackStrategies.ProjectileTest" tests="7" skipped="0" failures="0" errors="0" timestamp="2025-12-30T23:46:12" hostname="the-workshop" time="0.004">
+  <properties/>
+  <testcase name="testProjectileMoveUp()" classname="model.attackStrategies.ProjectileTest" time="0.001"/>
+  <testcase name="testInit()" classname="model.attackStrategies.ProjectileTest" time="0.0"/>
+  <testcase name="testRangeExceeded()" classname="model.attackStrategies.ProjectileTest" time="0.001"/>
+  <testcase name="testProjectileNotMove()" classname="model.attackStrategies.ProjectileTest" time="0.0"/>
+  <testcase name="testProjectileMoveDown()" classname="model.attackStrategies.ProjectileTest" time="0.001"/>
+  <testcase name="testProjectileMoveLeft()" classname="model.attackStrategies.ProjectileTest" time="0.0"/>
+  <testcase name="testProjectileMoveRight()" classname="model.attackStrategies.ProjectileTest" time="0.0"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>
